@@ -19,3 +19,19 @@
 5. Socratic tutor: asks, checks, never hands over answer (OpenSchool confirmed live).
 6. Voice-first, text fallback toggle (both products).
 7. Streaks + weekly progress email.
+
+## OpenSchool live lesson details (Multiplication Power-Up)
+- Lesson title: **Multiplication Power-Up**
+- Strategy taught: **The Split Strategy** — breaks multiplication into place-value chunks:
+  - `23 = 20 + 3`
+  - `20 × 4 = 80`
+  - `3 × 4 = 12`
+  - Final prompt: `80 + 12 = ?` (red text = student must complete)
+- Explanation sub-step: *"Why 20 × 4 = 80"* with worked chain:
+  - `20 = 2 × 10`
+  - `2 × 10 × 4`
+  - `8 × 10 = 80` (highlighted)
+- Tutor controls: **Follow tutor** button + **not sure** fallback link.
+- Tutor check-in text: *"Does that make sense, Thomas?"* — personalized by student name.
+- Bottom bar: profile icon, chat, pause, audio/speaker, comment icon, mic mute.
+- Audio playing indicator in window title confirms voice narration is active.
