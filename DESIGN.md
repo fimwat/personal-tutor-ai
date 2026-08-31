@@ -35,3 +35,10 @@
 - Tutor check-in text: *"Does that make sense, Thomas?"* — personalized by student name.
 - Bottom bar: profile icon, chat, pause, audio/speaker, comment icon, mic mute.
 - Audio playing indicator in window title confirms voice narration is active.
+
+## OpenSchool adaptive content generation
+- After the worked split-strategy explanation, the tutor **regenerated the same concept with a new visual metaphor**: four cartoon stick bundles tied with yellow bands.
+- New explanatory text: `1 bundle = 10 sticks`, `20 = 2 bundles`, `2 bundles × 4 = 8 bundles`, `8 bundles = 80 sticks` (highlighted).
+- Personalized prompt: *"Can you picture those bundles, Thomas? Does that help it click?"*
+- This is not static content — it's **LLM-generated on the fly** with different representations of the same math fact, likely triggered by student response or a "not sure" click.
+- Architectural implication: backend LLM has access to a **visual/graphic generation capability**, not just text. Could be inline SVG generation, image generation API, or pre-authored asset library with dynamic composition.
